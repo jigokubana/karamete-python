@@ -1,7 +1,8 @@
 """
 Задача: 2.3.L — Интересное сложение.
-Сложность: Time O(d), Space O(1), где d — количество цифр в числе.
+Сложность: Time O(1), Space O(1).
 """
+
 
 def sum_numbers(first_number: int, second_number: int) -> int:
     """Складывает два числа поразрядно без учёта переносов."""
@@ -25,19 +26,21 @@ def sum_numbers(first_number: int, second_number: int) -> int:
     if (first_digit + fourth_digit) % 10 > 0:
         first_pair = (first_digit + fourth_digit) % 10
     else:
-        first_pair = ''
+        first_pair = 0
     if (second_digit + fifth_digit) % 10 > 0:
         second_pair = (second_digit + fifth_digit) % 10
     else:
-        second_pair = ''
+        second_pair = 0
     if (third_digit + sixth_digit) % 10 > 0:
         third_pair = (third_digit + sixth_digit) % 10
     else:
-        third_pair = ''
+        third_pair = 0
     return int(f'{first_pair}{second_pair}{third_pair}')
+
 
 assert sum_numbers(123, 99) == 112
 assert sum_numbers(45, 69) == 4
+
 
 if __name__ == "__main__":
     first_number: int = int(input())
