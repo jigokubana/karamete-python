@@ -1,11 +1,14 @@
-# karamete-python
-Python learning: exercises and small projects.
+# Engineering & Algorithms
 
-## Projects
-- [loot_analyzer](loot_analyzer/) - counts items in a typed list
-- [score_analyst](score_analyst/) - counts best, worst, average, top three and median of entered items
+Единый репозиторий инженерной практики: алгоритмические задачи, структуры данных, работа с ОС и базовые утилиты.
 
-## Exercises
-- [dicts](exercises/dicts/)
-- [lists](exercises/lists/)
-- [functions](exercises/functions/)
+## Структура репозитория
+
+* **`handbook/`** — Решения задач из хендбуков Яндекса (строгая типизация, PEP 8, оценка сложности $O$-большое).
+  * `ch02_basics/` — Базовые конструкции Python.
+* **`mini_projects/`** — Завершённые консольные утилиты и микро-проекты:
+  * `loot_analyzer/` — Анализатор игрового дропа и статистики.
+  * `score_analyst/` — Утилита обработки и анализа результатов.
+
+## Стандарт кода
+Весь код в репозитории пишется с использованием `Type Hints`, документированием временной и пространственной сложности (`Time / Space Complexity`) и покрывается базовыми проверками `assert`.
