@@ -5,6 +5,7 @@
 
 
 def race_winner(p_speed: float, v_speed: float, t_speed: float) -> str:
+    """Находит победителя гонки путём сравнения"""
     if p_speed > v_speed and p_speed > t_speed:
         return 'Петя'
     elif v_speed > p_speed and v_speed > t_speed:

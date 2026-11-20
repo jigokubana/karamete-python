@@ -5,6 +5,7 @@
 
 
 def winners_list(p_speed: int, v_speed: int, t_speed: int) -> str:
+    """Сравнивает кандидатов и выводит их в виде списка строк"""
     if p_speed >= v_speed and p_speed >= t_speed:
         if v_speed >= t_speed:
             return '1. Петя\n2. Вася\n3. Толя'

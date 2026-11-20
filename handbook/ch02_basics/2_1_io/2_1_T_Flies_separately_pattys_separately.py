@@ -4,7 +4,7 @@
 """
 
 
-def invoice_restorer(n: int, m: int, k1: int, k2: int) -> tuple[int, int]:
+def invoice_restorer(n: int, m: int, k1: int, k2: int) -> str:
     """Возвращает веса первой и второй партии котлет"""
     x = int((m * n - n * k2) / (k1 - k2))
     y = int(n - x)

@@ -5,6 +5,7 @@
 
 
 def winner_finder(first_candidate: int, second_candidate: int) -> str:
+    """Находит победителя путём сравнения"""
     if first_candidate > second_candidate:
         return 'Петя'
     else:

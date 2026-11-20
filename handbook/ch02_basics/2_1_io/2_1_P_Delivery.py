@@ -4,7 +4,7 @@
 """
 
 
-def timer(mark_one: int, mark_two: int, speed: int) -> float:
+def timer(mark_one: int, mark_two: int, speed: int) -> str:
     """Считает за сколько автомобиль доставит товары"""
     return f'{(mark_two - mark_one) / speed:.2f}'
 
