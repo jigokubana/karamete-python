@@ -1,5 +1,5 @@
 """
-2.2.K - Красота спсёт мир.
+2.2.K - Красота спасёт мир.
 Сложность: Time O(1), Space O(1).
 """
 
@@ -9,7 +9,10 @@ def beauty_analysis(number: int) -> str:
     a = number // 100
     b = number // 10 % 10
     c = number % 10
-    if a + c == b * 2:
+    min_d = min(a, b, c)
+    max_d = max(a, b, c)
+    mid_d = a + b + c - min_d - max_d
+    if max_d + min_d == mid_d * 2:
         return 'YES'
     else:
         return 'NO'
