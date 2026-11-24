@@ -5,7 +5,7 @@
 
 
 def turn_analyzer(p_one: str, p_two: str, p_three: str) -> str:
-    """По лексикографическому порядку решает, кто будет ходить первым"""
+    """По лексикографическому порядку решает, кто будет ходить первым."""
     if p_one <= p_two and p_one <= p_three:
         return p_one
     elif p_two < p_one and p_two < p_three:

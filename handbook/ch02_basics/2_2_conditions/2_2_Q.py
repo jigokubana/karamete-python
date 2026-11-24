@@ -8,7 +8,7 @@ import math
 
 
 def koren(a: float, b: float, c: float) -> str:
-    """Ищет корни"""
+    """Ищет корни."""
     if a == 0 and b == 0 and c == 0:
         return 'Infinite solutions'
     elif a == 0 and b == 0 and c != 0:

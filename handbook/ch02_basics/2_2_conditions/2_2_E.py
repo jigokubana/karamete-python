@@ -5,7 +5,7 @@
 
 
 def golovolomka(v_apples: int, p_apples: int) -> str:
-    """Сравнивает кандидатов и выводит победителя"""
+    """Сравнивает кандидатов и выводит победителя."""
     if v_apples > p_apples:
         return 'Петя'
     else:

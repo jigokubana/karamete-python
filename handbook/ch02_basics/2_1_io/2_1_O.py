@@ -5,7 +5,7 @@
 
 
 def clock(hours: int, minutes: int, waiting_time: int) -> str:
-    """Переводит часы на время, когда приедет доставка"""
+    """Переводит часы на время, когда приедет доставка."""
     arriving_time_in_minutes = hours * 60 + minutes + waiting_time
     arriving_time_hours = (arriving_time_in_minutes // 60) % 24
     arriving_time_minutes = arriving_time_in_minutes % 60

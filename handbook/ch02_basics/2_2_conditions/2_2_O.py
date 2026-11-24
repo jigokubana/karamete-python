@@ -5,7 +5,7 @@
 
 
 def strongest_protection(number_one: int, number_two: int) -> str:
-    """Собирает из двух двузначных чисел сильнейшее трёхзначное"""
+    """Собирает из двух двузначных чисел сильнейшее трёхзначное."""
     a = number_one // 10
     b = number_one % 10
     c = number_two // 10

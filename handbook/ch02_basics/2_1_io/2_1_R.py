@@ -5,7 +5,7 @@
 
 
 def change(itemcost: int, denomination: int) -> int:
-    """Подсчитывает сдачу, которую требуется отдать пользователю"""
+    """Подсчитывает сдачу, которую требуется отдать пользователю."""
     itemcost = int(str(itemcost), 2)
     return denomination - itemcost
 

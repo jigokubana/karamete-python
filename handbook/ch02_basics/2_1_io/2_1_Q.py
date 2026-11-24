@@ -5,7 +5,7 @@
 
 
 def perevod(decimal: int, binary: int) -> int:
-    """Суммирует уже купленные товары в магазине и сумму последней покупки"""
+    """Суммирует уже купленные товары в магазине и сумму последней покупки."""
     binary = int(str(binary), 2)
     return decimal + binary
 

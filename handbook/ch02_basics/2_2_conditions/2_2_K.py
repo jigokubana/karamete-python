@@ -5,7 +5,7 @@
 
 
 def beauty_analysis(number: int) -> str:
-    """Проверяет красивое число или нет"""
+    """Проверяет красивое число или нет."""
     a = number // 100
     b = number // 10 % 10
     c = number % 10

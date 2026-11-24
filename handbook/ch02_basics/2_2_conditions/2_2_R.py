@@ -5,6 +5,7 @@
 
 
 def evilness_analyzer(n_one: int, n_two: int, n_three: int) -> str:
+    """Вычисляет ЗЛОБНОСТЬ треугольника."""
     c = max(n_one, n_two, n_three)
     a = min(n_one, n_two, n_three)
     b = n_one + n_two + n_three - a - c
